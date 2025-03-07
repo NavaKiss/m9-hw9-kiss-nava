@@ -135,10 +135,16 @@ footer {
 @media screen and (max-width: 500px) {
   article.main {
     padding: 30px;
+    margin-bottom: 20px;
   }
   section.hero > .call-to-action {
     font-size: 20px;
   }
+
+  section.hero {
+    margin-bottom: 20px;
+  }
+  
   nav {
     flex-direction: column;
     justify-content: center;
