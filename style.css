@@ -144,7 +144,7 @@ footer {
   section.hero {
     margin-bottom: 20px;
   }
-  
+
   nav {
     flex-direction: column;
     justify-content: center;
@@ -160,8 +160,9 @@ footer {
     margin: auto;
   }
 
-  img {
-    margin: 0px;
+  article.main > img {
+    display: block;
+    margin: auto;
     float: none;
   }
 }
