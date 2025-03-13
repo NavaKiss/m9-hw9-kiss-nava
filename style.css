@@ -43,16 +43,16 @@ header {
   border-bottom: var(--secondary-color) 6px solid;
 }
 
-header a {
+.size-color {
   font-size: 1.5rem;
   color: var(--off-white);
 }
 
-main a {
+.tooltip {
   color: var(--danger-color);
 }
 
-main > article, nav{
+.set_box_size {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
