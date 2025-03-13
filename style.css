@@ -159,48 +159,10 @@ footer {
     padding-bottom: 40px;
     margin: auto;
   }
-
-  img {
-    margin: 0px;
+ 
   article.main > img {
     display: block;
     margin: auto;
     float: none;
     }
   }
-}
-
-@media screen and (max-width: 500px) {
-  .main {
-    padding: 30px;
-    margin-bottom: 20px;
-  }
-  .call-to-action {
-    font-size: 20px;
-  }
-
-  .hero {
-    margin-bottom: 20px;
-  }
-
-  .header {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-
-  nav > a {
-   margin: 0px !important;
-  }
-
-  a.logo {
-    padding-bottom: 40px;
-    margin: auto;
-  }
-
-  .article_img {
-    display: block;
-    margin: auto;
-    float: none;
-  }
-}
